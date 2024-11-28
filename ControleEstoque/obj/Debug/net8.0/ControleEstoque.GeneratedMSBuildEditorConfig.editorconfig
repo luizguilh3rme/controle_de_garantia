@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ControleEstoque
 build_property.RootNamespace = ControleEstoque
@@ -20,28 +28,28 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Contato/ApagarConfirmacao.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xBcGFnYXJDb25maXJtYWNhby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Contato/Criar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xDcmlhci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Contato/Editar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xFZGl0YXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Contato/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Ont/ApagarConfirmacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT250XEFwYWdhckNvbmZpcm1hY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Ont/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT250XENyaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Ont/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT250XEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Ont/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT250XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Uilson/Documents/GitHub/Sistema-controle-de-garantia-estoque/ControleEstoque/Views/Shared/Error.cshtml]
