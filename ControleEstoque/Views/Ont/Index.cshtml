@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<OntModel>
+@{
     ViewData["Title"] = "Listagem de produtos";
 }
 
@@ -21,42 +22,24 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>mdo</td>
-                <td>
-                    <div class="btn-group gap-3" role="group">
-                        <a role="button" class="btn btn-primary" asp-controller="Ont" asp-action="Editar">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Ont" asp-action="apagarConfirmacao">Apagar</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>fat</td>
-                <td>
-                    <div class="btn-group gap-3" role="group">
-                        <a role="button" class="btn btn-primary" asp-controller="Ont" asp-action="Editar">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Ont" asp-action="apagarConfirmacao">Apagar</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>fat</td>
-                <td>
-                    <div class="btn-group gap-3" role="group">
-                        <a role="button" class="btn btn-primary" asp-controller="Ont" asp-action="Editar">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Ont" asp-action="apagarConfirmacao">Apagar</a>
-                    </div>
-                </td>
-            </tr>
+            @if(Model != null && Model.Any())
+            {
+                foreach (OntModel ont in Model)
+                {
+                    <tr>
+                        <th scope="row">@ont.Id</th>
+                        <td>@ont.Nome</td>
+                        <td>@ont.Mac</td>
+                        <td>@ont.NumeroSerie</td>
+                        <td>
+                            <div class="btn-group gap-3" role="group">
+                                <a role="button" class="btn btn-primary" asp-route-id="@ont.Id" asp-controller="Ont" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@ont.Id" asp-controller="Ont" asp-action="ApagarConfirmacao">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
         </tbody>
     </table>
 </div>
