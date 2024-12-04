@@ -1,5 +1,10 @@
+wwwroot\css\Ont.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagens\221113223256212195.png
+wwwroot\imagens\intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg
+wwwroot\imagens\maxresdefault.jpg
+wwwroot\imagens\roteador-wi-fi-residencial-w5-1200gs.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

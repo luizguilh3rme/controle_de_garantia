@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\ControleEstoque.9716lqcnsu.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Ont.css",
+      "PackagePath": "staticwebassets\\css\\Ont.css"
+    },
+    {
       "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\221113223256212195.png",
+      "PackagePath": "staticwebassets\\imagens\\221113223256212195.png"
+    },
+    {
+      "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg",
+      "PackagePath": "staticwebassets\\imagens\\intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\maxresdefault.jpg",
+      "PackagePath": "staticwebassets\\imagens\\maxresdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\roteador-wi-fi-residencial-w5-1200gs.png",
+      "PackagePath": "staticwebassets\\imagens\\roteador-wi-fi-residencial-w5-1200gs.png"
     },
     {
       "Id": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\js\\site.js",

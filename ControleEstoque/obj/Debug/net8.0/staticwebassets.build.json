@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NiAHFChYAKvh3XbCZK8pRqZZV/trrzuaaKGx59Ekbcg=",
+  "Hash": "/0zf5UaHf5rq6OKTSFIl07iNm6lKGnUz00t4eZM7+HY=",
   "Source": "ControleEstoque",
   "BasePath": "_content/ControleEstoque",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ControleEstoque.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Ont.css",
+      "SourceId": "ControleEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\",
+      "BasePath": "_content/ControleEstoque",
+      "RelativePath": "css/Ont#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4fdwu3fbu2",
+      "Integrity": "EHqzPHQi7wHZuKAHcRa6p61ftySOz7UgnVXehiPc4oM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Ont.css"
+    },
+    {
       "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\site.css",
       "SourceId": "ControleEstoque",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "kz85drcyxs",
+      "Integrity": "wHWanuPYzeBdP60kwKGIl9cY0ff4wMhoc4nPPiEzyFY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -101,6 +122,90 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\221113223256212195.png",
+      "SourceId": "ControleEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\",
+      "BasePath": "_content/ControleEstoque",
+      "RelativePath": "imagens/221113223256212195#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h3mhyqhcdn",
+      "Integrity": "41tjyeIrhiiEr7w2LIrEg2B2il8YXd8qUbwMuyql8qA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\221113223256212195.png"
+    },
+    {
+      "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg",
+      "SourceId": "ControleEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\",
+      "BasePath": "_content/ControleEstoque",
+      "RelativePath": "imagens/intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s8fexpoy3d",
+      "Integrity": "VPZotagg3fvwzx5oT8a1WSuaqdGKcg3oa/59uv230Sk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\maxresdefault.jpg",
+      "SourceId": "ControleEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\",
+      "BasePath": "_content/ControleEstoque",
+      "RelativePath": "imagens/maxresdefault#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l0o9dp80lw",
+      "Integrity": "K20UCP7p8yzfaijjFb3nQW24msoIQCJlmsWQSkI7rE4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\maxresdefault.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\roteador-wi-fi-residencial-w5-1200gs.png",
+      "SourceId": "ControleEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\",
+      "BasePath": "_content/ControleEstoque",
+      "RelativePath": "imagens/roteador-wi-fi-residencial-w5-1200gs#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n8tasq1nkj",
+      "Integrity": "h8aAQpQWAiJYm8uPDMsn3I7ndJA3t+W7hF7Z8IxoRlE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\roteador-wi-fi-residencial-w5-1200gs.png"
+    },
+    {
       "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\js\\site.js",
       "SourceId": "ControleEstoque",
       "SourceType": "Discovered",
@@ -115,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "02ucwc0mn2",
+      "Integrity": "KHN175UIwRYRZOXuywb2CKODXhgY9C/lFmJEqFhjEt8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1485,8 +1590,8 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\site.css",
+      "Route": "css/Ont.4fdwu3fbu2.css",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Ont.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1495,7 +1600,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "55"
         },
         {
           "Name": "Content-Type",
@@ -1503,11 +1608,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"EHqzPHQi7wHZuKAHcRa6p61ftySOz7UgnVXehiPc4oM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 23:57:52 GMT"
+          "Value": "Wed, 04 Dec 2024 00:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,15 +1622,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "4fdwu3fbu2"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/Ont.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-EHqzPHQi7wHZuKAHcRa6p61ftySOz7UgnVXehiPc4oM="
+        }
+      ]
+    },
+    {
+      "Route": "css/Ont.css",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Ont.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EHqzPHQi7wHZuKAHcRa6p61ftySOz7UgnVXehiPc4oM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:21:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EHqzPHQi7wHZuKAHcRa6p61ftySOz7UgnVXehiPc4oM="
         }
       ]
     },
@@ -1540,7 +1682,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "551"
         },
         {
           "Name": "Content-Type",
@@ -1548,11 +1690,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"wHWanuPYzeBdP60kwKGIl9cY0ff4wMhoc4nPPiEzyFY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 23:57:52 GMT"
+          "Value": "Mon, 02 Dec 2024 18:27:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1562,7 +1704,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-wHWanuPYzeBdP60kwKGIl9cY0ff4wMhoc4nPPiEzyFY="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.kz85drcyxs.css",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wHWanuPYzeBdP60kwKGIl9cY0ff4wMhoc4nPPiEzyFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 18:27:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kz85drcyxs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wHWanuPYzeBdP60kwKGIl9cY0ff4wMhoc4nPPiEzyFY="
         }
       ]
     },
@@ -1649,6 +1836,379 @@
       ]
     },
     {
+      "Route": "imagens/221113223256212195.h3mhyqhcdn.png",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\221113223256212195.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"41tjyeIrhiiEr7w2LIrEg2B2il8YXd8qUbwMuyql8qA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h3mhyqhcdn"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/221113223256212195.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-41tjyeIrhiiEr7w2LIrEg2B2il8YXd8qUbwMuyql8qA="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/221113223256212195.png",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\221113223256212195.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"41tjyeIrhiiEr7w2LIrEg2B2il8YXd8qUbwMuyql8qA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-41tjyeIrhiiEr7w2LIrEg2B2il8YXd8qUbwMuyql8qA="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPZotagg3fvwzx5oT8a1WSuaqdGKcg3oa/59uv230Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPZotagg3fvwzx5oT8a1WSuaqdGKcg3oa/59uv230Sk="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.s8fexpoy3d.jpg",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPZotagg3fvwzx5oT8a1WSuaqdGKcg3oa/59uv230Sk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s8fexpoy3d"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPZotagg3fvwzx5oT8a1WSuaqdGKcg3oa/59uv230Sk="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/maxresdefault.jpg",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\maxresdefault.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K20UCP7p8yzfaijjFb3nQW24msoIQCJlmsWQSkI7rE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K20UCP7p8yzfaijjFb3nQW24msoIQCJlmsWQSkI7rE4="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/maxresdefault.l0o9dp80lw.jpg",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\maxresdefault.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25438"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K20UCP7p8yzfaijjFb3nQW24msoIQCJlmsWQSkI7rE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l0o9dp80lw"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/maxresdefault.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K20UCP7p8yzfaijjFb3nQW24msoIQCJlmsWQSkI7rE4="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/roteador-wi-fi-residencial-w5-1200gs.n8tasq1nkj.png",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\roteador-wi-fi-residencial-w5-1200gs.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h8aAQpQWAiJYm8uPDMsn3I7ndJA3t+W7hF7Z8IxoRlE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n8tasq1nkj"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/roteador-wi-fi-residencial-w5-1200gs.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h8aAQpQWAiJYm8uPDMsn3I7ndJA3t+W7hF7Z8IxoRlE="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/roteador-wi-fi-residencial-w5-1200gs.png",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\imagens\\roteador-wi-fi-residencial-w5-1200gs.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h8aAQpQWAiJYm8uPDMsn3I7ndJA3t+W7hF7Z8IxoRlE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 00:14:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h8aAQpQWAiJYm8uPDMsn3I7ndJA3t+W7hF7Z8IxoRlE="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.02ucwc0mn2.js",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KHN175UIwRYRZOXuywb2CKODXhgY9C/lFmJEqFhjEt8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Dec 2024 18:31:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "02ucwc0mn2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KHN175UIwRYRZOXuywb2CKODXhgY9C/lFmJEqFhjEt8="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1659,7 +2219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "308"
         },
         {
           "Name": "Content-Type",
@@ -1667,11 +2227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"KHN175UIwRYRZOXuywb2CKODXhgY9C/lFmJEqFhjEt8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 23:57:52 GMT"
+          "Value": "Mon, 02 Dec 2024 18:31:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1681,52 +2241,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 20 Nov 2024 23:57:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-KHN175UIwRYRZOXuywb2CKODXhgY9C/lFmJEqFhjEt8="
         }
       ]
     },
