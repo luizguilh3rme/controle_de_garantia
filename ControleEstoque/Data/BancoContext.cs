@@ -12,5 +12,8 @@ namespace ControleEstoque.Data
         }
 
         public DbSet<OntModel> Onts { get; set; }
+        public DbSet<UsuarioModel> Usuarios { get; set; }
+        public DbSet<W5Model> W5 { get; set; }
+        public DbSet<OnuIntelbrasModel> OnuIntelbras { get; set; }
     }
 }

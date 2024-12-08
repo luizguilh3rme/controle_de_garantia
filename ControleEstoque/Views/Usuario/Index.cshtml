@@ -1,0 +1,110 @@
+﻿@model List<UsuarioModel>
+@{
+    ViewData["Title"] = "Listagem de usuarios";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Ont.css" asp-append-version="true" />
+</head>
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-success" role="button" asp-controller="Ont" asp-action="Criar">Adicionar novo usuario</a>
+    </div>
+    <br/>
+
+    @if(TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemErro"]
+    </div>
+    }
+
+    <br/>
+
+    <h1 class="display-4 Titulo_ont">Listagem de usuarios</h1>
+    <br/>
+
+
+   @*<div class="container-fluid">
+        <div class="row justify-content-center">
+            @if (Model != null && Model.Any())
+            {
+                foreach (UsuarioModel usuario in Model)
+                {
+                    <div class="col-md-4">
+                        <div class="card m-2" style="background-color:#212529;">
+                            <img class="card-img-top" src="~/Imagens/intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg" alt="usuario" height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title nome" style="margin-bottom:20px;">@usuario.Nome</h5>
+                            <a role="button" class="btn btn-primary me-1" asp-route-id="@usuario.Id" asp-asp-controller="Usuario" asp-action="Editar">Editar</a>
+                            <a role="button" class="btn btn-danger" asp-route-id="@usuario.Id" asp-asp-controller="Usuario" asp-action="ApagarConfirmacao">Apagar</a>
+                            <a role="button" class="btn btn-success" asp-route-id="@usuario.Id" asp-asp-controller="Usuario" asp-action="Detalhes">Detalhes</a>
+                        </div>
+                    </div>
+                        
+                     </div>
+
+
+                    
+                }
+            }
+        </div>
+    </div>*@
+
+
+
+
+
+
+
+
+    
+
+
+
+    <table class="table" id="table-usuarios">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Login</th>
+                <th scope="col">Email</th>
+                <th scope="col">Data de cadastro</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Any())
+            {
+                foreach (UsuarioModel usuario in Model)
+                {
+                    <tr>
+                        <th scope="row">@usuario.Id</th>
+                        <td>@usuario.Nome</td>
+                        <td>@usuario.Login</td>
+                        <td>@usuario.Email</td>
+                        <td>@usuario.DataCadastro</td>
+                        <td>
+                            <div class="btn-group gap-3" role="group">
+                                <a role="button" class="btn btn-primary" asp-route-id="@usuario.Id" asp-controller="Usuario" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@usuario.Id" asp-controller="Usuario" asp-action="ApagarConfirmacao">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+

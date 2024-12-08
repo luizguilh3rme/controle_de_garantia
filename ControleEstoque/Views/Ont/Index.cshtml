@@ -33,9 +33,10 @@
     <br/>
 
     <h1 class="display-4 Titulo_ont">Listagem de produtos</h1>
-    <br/>
 
-    <div class="container-fluid">
+
+
+   @*<div class="container-fluid">
         <div class="row justify-content-center">
             @if (Model != null && Model.Any())
             {
@@ -59,7 +60,7 @@
                 }
             }
         </div>
-    </div>
+    </div> *@
 
 
 
@@ -72,13 +73,13 @@
 
 
 
-    @*<table class="table">
+   <table class="display" id="table-ont" style="width:100%;">
         <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Mac</th>
-                <th scope="col">Número de Série</th>
+                <th scope="col" class="text-center">#</th>
+                <th scope="col" class="text-center">Nome</th>
+                <th scope="col" class="text-center">Mac</th>
+                <th scope="col" class="text-center">Número de Série</th>
                 <th scope="col"></th>
             </tr>
         </thead>
@@ -102,6 +103,6 @@
                 }
             }
         </tbody>
-    </table>*@
+    </table>
 </div>
 
