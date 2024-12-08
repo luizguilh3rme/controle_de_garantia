@@ -4,13 +4,13 @@
 }
 
 <head>
-    <link rel="stylesheet" href="~/css/Ont.css" asp-append-version="true" />
+    
 </head>
 
 <div class="text-center">
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-success" role="button" asp-controller="Ont" asp-action="Criar">Adicionar novo usuario</a>
+        <a class="btn btn-success" role="button" asp-controller="Usuario" asp-action="Criar">Adicionar novo usuario</a>
     </div>
     <br/>
 
@@ -73,14 +73,14 @@
 
 
 
-    <table class="table" id="table-usuarios">
+    <table class="table" id="table-usuario">
         <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Login</th>
-                <th scope="col">Email</th>
-                <th scope="col">Data de cadastro</th>
+                <th scope="col" class="text-center">#</th>
+                <th scope="col" class="text-center">Nome</th>
+                <th scope="col" class="text-center">Login</th>
+                <th scope="col" class="text-center">Email</th>
+                <th scope="col" class="text-center">Data de cadastro</th>
                 <th scope="col"></th>
             </tr>
         </thead>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eZvxYd1tPa4R2muSj8x07P+AawfvD5CyDPGjwatz6FE=",
+  "Hash": "3+DoAPFn/v7HE/TSxsqnEV2948Qvz7AFcfsSj2RuJaI=",
   "Source": "ControleEstoque",
   "BasePath": "_content/ControleEstoque",
   "Mode": "Default",
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "023ic2zgqb",
-      "Integrity": "+OPu+bbl51EfE+B5qbLCAxqCspbFx73d/yNmUHn/OC8=",
+      "Fingerprint": "hn6b5b02ut",
+      "Integrity": "bafb9hlhyjdGZfFicFICHp7Sb/ye+YlCCLcF++hCf0I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2164,7 +2164,7 @@
       ]
     },
     {
-      "Route": "js/site.023ic2zgqb.js",
+      "Route": "js/site.hn6b5b02ut.js",
       "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2174,7 +2174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1344"
+          "Value": "1588"
         },
         {
           "Name": "Content-Type",
@@ -2182,11 +2182,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+OPu+bbl51EfE+B5qbLCAxqCspbFx73d/yNmUHn/OC8=\""
+          "Value": "\"bafb9hlhyjdGZfFicFICHp7Sb/ye+YlCCLcF++hCf0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 22:58:50 GMT"
+          "Value": "Sun, 08 Dec 2024 11:51:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2196,7 +2196,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "023ic2zgqb"
+          "Value": "hn6b5b02ut"
         },
         {
           "Name": "label",
@@ -2204,7 +2204,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+OPu+bbl51EfE+B5qbLCAxqCspbFx73d/yNmUHn/OC8="
+          "Value": "sha256-bafb9hlhyjdGZfFicFICHp7Sb/ye+YlCCLcF++hCf0I="
         }
       ]
     },
@@ -2219,7 +2219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1344"
+          "Value": "1588"
         },
         {
           "Name": "Content-Type",
@@ -2227,11 +2227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+OPu+bbl51EfE+B5qbLCAxqCspbFx73d/yNmUHn/OC8=\""
+          "Value": "\"bafb9hlhyjdGZfFicFICHp7Sb/ye+YlCCLcF++hCf0I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 22:58:50 GMT"
+          "Value": "Sun, 08 Dec 2024 11:51:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2241,7 +2241,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+OPu+bbl51EfE+B5qbLCAxqCspbFx73d/yNmUHn/OC8="
+          "Value": "sha256-bafb9hlhyjdGZfFicFICHp7Sb/ye+YlCCLcF++hCf0I="
         }
       ]
     },
