@@ -12,6 +12,13 @@ namespace ControleEstoque.Repositorio
             this._context = bancoContext;
         }
 
+        // Verifica se o login digitado pelo usuario é IGUAL ao do banco de dados
+        public UsuarioModel BuscarPorLogin(string login)
+        {
+            //ToUpper  vai transformar o Login em letra maiuscula ao digita-lo
+            return _context.Usuarios.FirstOrDefault(x => x.Login.ToUpper() == login.ToUpper());
+        }
+
         //Listar ID para editação de produtos
         public UsuarioModel ListarPorId(int id)
         {

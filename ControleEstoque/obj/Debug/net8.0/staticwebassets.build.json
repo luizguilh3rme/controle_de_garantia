@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3+DoAPFn/v7HE/TSxsqnEV2948Qvz7AFcfsSj2RuJaI=",
+  "Hash": "47+ArJMdtWjrFi/UGNdChvykAb5viMmViD84x7SgvfI=",
   "Source": "ControleEstoque",
   "BasePath": "_content/ControleEstoque",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "9716lqcnsu",
-      "Integrity": "a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU=",
+      "Fingerprint": "065dxjr7u1",
+      "Integrity": "mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ControleEstoque.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "9716lqcnsu",
-      "Integrity": "a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU=",
+      "Fingerprint": "065dxjr7u1",
+      "Integrity": "mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ControleEstoque.bundle.scp.css"
@@ -1426,7 +1426,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "ControleEstoque.9716lqcnsu.bundle.scp.css",
+      "Route": "ControleEstoque.065dxjr7u1.bundle.scp.css",
       "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ControleEstoque.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1436,7 +1436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "2275"
         },
         {
           "Name": "Content-Type",
@@ -1444,11 +1444,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU=\""
+          "Value": "\"mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 23:40:04 GMT"
+          "Value": "Thu, 12 Dec 2024 22:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1458,7 +1458,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9716lqcnsu"
+          "Value": "065dxjr7u1"
         },
         {
           "Name": "label",
@@ -1466,12 +1466,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU="
+          "Value": "sha256-mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ="
         }
       ]
     },
     {
-      "Route": "ControleEstoque.9716lqcnsu.styles.css",
+      "Route": "ControleEstoque.065dxjr7u1.styles.css",
       "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ControleEstoque.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1481,7 +1481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "2275"
         },
         {
           "Name": "Content-Type",
@@ -1489,11 +1489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU=\""
+          "Value": "\"mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 23:40:04 GMT"
+          "Value": "Thu, 12 Dec 2024 22:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1503,7 +1503,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9716lqcnsu"
+          "Value": "065dxjr7u1"
         },
         {
           "Name": "label",
@@ -1511,7 +1511,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU="
+          "Value": "sha256-mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ="
         }
       ]
     },
@@ -1526,7 +1526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "2275"
         },
         {
           "Name": "Content-Type",
@@ -1534,11 +1534,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU=\""
+          "Value": "\"mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 23:40:04 GMT"
+          "Value": "Thu, 12 Dec 2024 22:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1548,7 +1548,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU="
+          "Value": "sha256-mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ="
         }
       ]
     },
@@ -1563,7 +1563,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1133"
+          "Value": "2275"
         },
         {
           "Name": "Content-Type",
@@ -1571,11 +1571,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU=\""
+          "Value": "\"mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Nov 2024 23:40:04 GMT"
+          "Value": "Thu, 12 Dec 2024 22:22:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1585,7 +1585,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU="
+          "Value": "sha256-mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ="
         }
       ]
     },

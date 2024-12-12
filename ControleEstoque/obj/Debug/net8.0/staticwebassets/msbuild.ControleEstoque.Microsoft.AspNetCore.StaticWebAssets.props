@@ -1,22 +1,22 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ControleEstoque.9716lqcnsu.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ControleEstoque.065dxjr7u1.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>ControleEstoque</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ControleEstoque</BasePath>
-      <RelativePath>ControleEstoque.9716lqcnsu.bundle.scp.css</RelativePath>
+      <RelativePath>ControleEstoque.065dxjr7u1.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>9716lqcnsu</Fingerprint>
-      <Integrity>a1dcZJSdY9KErGiZnf1zy/RnUyeO9+hPZD52Bn//fpU=</Integrity>
+      <Fingerprint>065dxjr7u1</Fingerprint>
+      <Integrity>mEcyOnLKfI2vn/GvubCvtfdpiHvXgba/geudb1WVOmQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ControleEstoque.9716lqcnsu.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ControleEstoque.065dxjr7u1.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Ont.css'))">
       <SourceType>Package</SourceType>

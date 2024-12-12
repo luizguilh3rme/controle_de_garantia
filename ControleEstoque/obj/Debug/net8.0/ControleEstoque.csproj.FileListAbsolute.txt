@@ -205,3 +205,4 @@ C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEs
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\ControleEstoque.csproj.AssemblyReference.cache
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\Controle.DC1A0F87.Up2Date
+C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css

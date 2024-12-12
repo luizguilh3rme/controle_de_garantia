@@ -19,5 +19,10 @@ namespace ControleEstoque.Models
         public string Senha { get; set; }
         public DateTime DataCadastro { get; set; }
         public DateTime? DataAtualizacao { get; set; }
+
+        public bool SenhaValida(string senha) //usou bool para informar se a senha é true ou false
+        {
+            return Senha == senha; //compara a senha do banco com a senha preenchida pelo usuário
+        }
     }
 }
