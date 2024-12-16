@@ -1,0 +1,108 @@
+﻿@model List<W5Model>
+@{
+    ViewData["Title"] = "Listagem de produtos";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Ont.css" asp-append-version="true" />
+</head>
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-success" role="button" asp-controller="W5" asp-action="Criar">Adicionar novo produto</a>
+    </div>
+    <br/>
+
+    @if(TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            <button type="button" class="btn btn-danger btn-sm close-alert" arial-label="Close">X</button>
+            @TempData["MensagemErro"]
+    </div>
+    }
+
+    <br/>
+
+    <h1 class="display-4 Titulo_ont">Listagem de produtos</h1>
+
+
+
+   @*<div class="container-fluid">
+        <div class="row justify-content-center">
+            @if (Model != null && Model.Any())
+            {
+                foreach (OntModel ont in Model)
+                {
+                    <div class="col-md-4">
+                        <div class="card m-2" style="background-color:#212529;">
+                            <img class="card-img-top" src="~/Imagens/intelbras-WiFiber-121-AC-Wi-Force-Router-Featured-Image-1.jpg" alt="ONT INTELBRAS" height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title nome" style="margin-bottom:20px;">@ont.Nome</h5>
+                            <a role="button" class="btn btn-primary me-1" asp-route-id="@ont.Id" asp-asp-controller="Ont" asp-action="Editar">Editar</a>
+                            <a role="button" class="btn btn-danger" asp-route-id="@ont.Id" asp-asp-controller="Ont" asp-action="ApagarConfirmacao">Apagar</a>
+                            <a role="button" class="btn btn-success" asp-route-id="@ont.Id" asp-asp-controller="Ont" asp-action="Detalhes">Detalhes</a>
+                        </div>
+                    </div>
+                        
+                     </div>
+
+
+                    
+                }
+            }
+        </div>
+    </div> *@
+
+
+
+
+
+
+
+
+    
+
+
+
+   <table class="display" id="table-ont" style="width:100%;">
+        <thead>
+            <tr>
+                <th scope="col" class="text-center">#</th>
+                <th scope="col" class="text-center">Nome</th>
+                <th scope="col" class="text-center">Mac</th>
+                <th scope="col" class="text-center">Número de Série</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null && Model.Any())
+            {
+                foreach (W5Model w5 in Model)
+                {
+                    <tr>
+                        <th scope="row">@w5.Id</th>
+                        <td>@w5.Nome</td>
+                        <td>@w5.Mac</td>
+                        <td>@w5.NumeroSerie</td>
+                        <td>
+                            <div class="btn-group gap-3" role="group">
+                                <a role="button" class="btn btn-primary" asp-route-id="@w5.Id" asp-controller="W5" asp-action="Editar">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@w5.Id" asp-controller="W5" asp-action="ApagarConfirmacao">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
