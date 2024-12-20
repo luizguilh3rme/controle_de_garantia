@@ -5,17 +5,17 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace ControleEstoque.Controllers
 {
-    public class W5Controller : Controller
+    public class OnuIntelbrasController : Controller
     {
-        private readonly IW5Repositorio _w5Repositorio;
-        public W5Controller(IW5Repositorio w5Repositorio)
+        private readonly IOnuIntelbrasRepositorio _onuintelbrasRepositorio;
+        public OnuIntelbrasController(IOnuIntelbrasRepositorio onuintelbrasRepositorio)
         {
-            _w5Repositorio = w5Repositorio;
+            _onuintelbrasRepositorio = onuintelbrasRepositorio;
         }
-        public IActionResult Index() 
+        public IActionResult Index()
         {
-            List<W5Model> W5s = _w5Repositorio.Buscartodos();
-            return View(W5s);
+            List<OnuIntelbrasModel> OnuIntelbrass = _onuintelbrasRepositorio.Buscartodos();
+            return View(OnuIntelbrass);
         }
 
         public IActionResult Criar()
@@ -25,20 +25,20 @@ namespace ControleEstoque.Controllers
 
         public IActionResult Editar(int id)
         {
-            W5Model w5= _w5Repositorio.ListarPorId(id);
-            return View(w5);
+            OnuIntelbrasModel onuintelbras= _onuintelbrasRepositorio.ListarPorId(id);
+            return View(onuintelbras);
         }
 
         public IActionResult detalhes(int id)
         {
-            W5Model w5= _w5Repositorio.ListarPorId(id);
-            return View(w5);
+            OnuIntelbrasModel onuIntelbras= _onuintelbrasRepositorio.ListarPorId(id);
+            return View(onuIntelbras);
         }
 
         public IActionResult ApagarConfirmacao(int id)
         {
-            W5Model w5= _w5Repositorio.ListarPorId(id);
-            return View(w5);
+            OnuIntelbrasModel onuIntelbras= _onuintelbrasRepositorio.ListarPorId(id);
+            return View(onuIntelbras);
         }
 
         public IActionResult Apagar(int id)
@@ -46,7 +46,7 @@ namespace ControleEstoque.Controllers
             try
             {
                 //Chamando o método Apagar da OntRepositorio
-                bool apagado = _w5Repositorio.Apagar(id);
+                bool apagado = _onuintelbrasRepositorio.Apagar(id);
 
                 if(apagado)
                 {
@@ -67,20 +67,20 @@ namespace ControleEstoque.Controllers
         }
 
         [HttpPost]
-        public IActionResult Criar(W5Model w5)
+        public IActionResult Criar(OnuIntelbrasModel onuIntelbras)
         {
-            //Chamando o método Adicionar da OntRepositorio
+            //Chamando o método Adicionar da OnuIntelbrasRepositorio
 
             try
             {
                 if (ModelState.IsValid)
                 {
-                    _w5Repositorio.Adicionar(w5);
+                    _onuintelbrasRepositorio.Adicionar(onuIntelbras);
                     TempData["MensagemSucesso"] = "Produto cadastrado com sucesso!";
                     return RedirectToAction("Index");
                 }
 
-                return View(w5);
+                return View(onuIntelbras);
             }
             catch (Exception erro) 
             {
@@ -91,7 +91,7 @@ namespace ControleEstoque.Controllers
         }
 
         [HttpPost]
-        public IActionResult Alterar(W5Model w5)
+        public IActionResult Alterar(OnuIntelbrasModel onuintelbras)
         {
 
             try
@@ -99,13 +99,13 @@ namespace ControleEstoque.Controllers
                 //Chamando o método Atualizar da OntRepositorio
                 if (ModelState.IsValid)
                 {
-                    _w5Repositorio.Atualizar(w5);
+                    _onuintelbrasRepositorio.Atualizar(onuintelbras);
                     TempData["MensagemSucesso"] = "Produto alterado com sucesso!";
                     return RedirectToAction("Index");
                 }
 
                 //Comando para forçar o return view cair na view de editar, porque não existe uma view com o nome Alterar, existe com o nome Editar
-                return View("Editar", w5);
+                return View("Editar", onuintelbras);
             }
             catch (Exception erro) 
             {

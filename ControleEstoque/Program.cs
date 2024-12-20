@@ -10,6 +10,7 @@ builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>(o => o
 builder.Services.AddScoped<IOntRepositorio, OntRepositorio>();
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<IW5Repositorio, W5Repositorio>();
+builder.Services.AddScoped<IOnuIntelbrasRepositorio, OnuIntelbrasRepositorio>();
 
 var app = builder.Build();
 

@@ -1,0 +1,42 @@
+﻿@model OnuIntelbrasModel
+@{
+    ViewData["Title"] = "Detalhes do produto";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Ont.css" asp-append-version="true" />
+</head>
+
+<div class="text-center">
+
+    <h2 class="display-4 Titulo_detalhes">Detalhes sobre Onu Intelbras @Model.Nome</h2>
+
+</div>
+
+<br/>
+<br />
+<br />
+    <div class="central-Detalhes">
+
+    <div class="fundo_detalhes">
+    <div class="form-group">
+        <label for="nome">Nome: @Model.Nome</label>
+
+    </div>
+    <br/>
+    <div class="form-group">
+        <label for="mac">Mac: @Model.Mac</label>      
+    </div>
+    <br/>
+    <div class="form-group">
+        <label for="NumeroSerie">Número de série: @Model.NumeroSerie</label>   
+    </div>
+ 
+    </div>
+
+    </div>
+    <br/>
+    <br/>
+<a class="btn btn-secondary botao-Detalhes" asp-controller="OnuIntelbras" asp-action="Index" role="button">Voltar</a>
+
+
