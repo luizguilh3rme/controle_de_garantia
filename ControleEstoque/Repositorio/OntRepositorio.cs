@@ -27,6 +27,7 @@ namespace ControleEstoque.Repositorio
         //Método para adicionar no banco de dados
         public OntModel Adicionar(OntModel ont)
         {
+            ont.DataCadastro = DateTime.Now;
             // Gravar no banco de dados
             _context.Onts.Add(ont);
             _context.SaveChanges();

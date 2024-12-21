@@ -30,6 +30,9 @@ namespace ControleEstoque.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Mac")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -148,6 +151,9 @@ namespace ControleEstoque.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DataCadastro")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Mac")
                         .IsRequired()

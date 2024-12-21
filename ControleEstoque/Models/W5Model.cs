@@ -11,5 +11,6 @@ namespace ControleEstoque.Models
         public string Mac { get; set; }
         [Required(ErrorMessage = "Digite o número de série do produto")] //Diz que o numero de serie é um campo obrigatório
         public string NumeroSerie { get; set; }
+        public DateTime DataCadastro { get; set; }
     }
 }

@@ -61,7 +61,6 @@ C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEs
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ControleEstoque.props
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ControleEstoque.props
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\ControleEstoque.dll
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\refint\ControleEstoque.dll
 C:\Users\Uilson\Documents\GitHub\Sistema-controle-de-garantia-estoque\ControleEstoque\obj\Debug\net8.0\ControleEstoque.pdb

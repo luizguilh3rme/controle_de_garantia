@@ -80,6 +80,7 @@
                 <th scope="col" class="text-center">Nome</th>
                 <th scope="col" class="text-center">Mac</th>
                 <th scope="col" class="text-center">Número de Série</th>
+                <th scope="col" class="text-center">Data de Cadastro</th>
                 <th scope="col"></th>
             </tr>
         </thead>
@@ -93,6 +94,7 @@
                         <td>@w5.Nome</td>
                         <td>@w5.Mac</td>
                         <td>@w5.NumeroSerie</td>
+                        <td>@w5.DataCadastro</td>
                         <td>
                             <div class="btn-group gap-3" role="group">
                                 <a role="button" class="btn btn-primary" asp-route-id="@w5.Id" asp-controller="W5" asp-action="Editar">Editar</a>

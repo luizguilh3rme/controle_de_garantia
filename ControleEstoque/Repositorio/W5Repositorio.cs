@@ -27,6 +27,7 @@ namespace ControleEstoque.Repositorio
         //Método para adicionar no banco de dados
         public W5Model Adicionar(W5Model w5)
         {
+            w5.DataCadastro = DateTime.Now;
             // Gravar no banco de dados
             _context.W5.Add(w5);
             _context.SaveChanges();
