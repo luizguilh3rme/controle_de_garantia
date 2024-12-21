@@ -80,6 +80,7 @@
                 <th scope="col" class="text-center">Nome</th>
                 <th scope="col" class="text-center">Mac</th>
                 <th scope="col" class="text-center">Número de Série</th>
+                <th scope="col" class="text-center">Data Cadastro</th>
                 <th scope="col"></th>
             </tr>
         </thead>
@@ -93,6 +94,7 @@
                         <td>@onuIntelbras.Nome</td>
                         <td>@onuIntelbras.Mac</td>
                         <td>@onuIntelbras.NumeroSerie</td>
+                        <td>@onuIntelbras.DataCadastro</td>
                         <td>
                             <div class="btn-group gap-3" role="group">
                                 <a role="button" class="btn btn-primary" asp-route-id="@onuIntelbras.Id" asp-controller="OnuIntelbras" asp-action="Editar">Editar</a>

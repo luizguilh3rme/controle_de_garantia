@@ -27,6 +27,7 @@ namespace ControleEstoque.Repositorio
         //Método para adicionar no banco de dados
         public OnuIntelbrasModel Adicionar(OnuIntelbrasModel onuintelbras)
         {
+            onuintelbras.DataCadastro = DateTime.Now;
             // Gravar no banco de dados
             _context.OnuIntelbras.Add(onuintelbras);
             _context.SaveChanges();

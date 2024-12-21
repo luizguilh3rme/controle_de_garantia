@@ -2,7 +2,7 @@
 
 namespace ControleEstoque.Models
 {
-    public class OnuIntelbrasModel
+    public class RF1200Model
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "Digite o nome do produto")] //Diz que o nome é um campo obrigatório
