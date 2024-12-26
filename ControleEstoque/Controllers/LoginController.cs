@@ -1,4 +1,5 @@
-﻿using ControleEstoque.Models;
+﻿using ControleEstoque.Helper;
+using ControleEstoque.Models;
 using ControleEstoque.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -8,14 +9,26 @@ namespace ControleEstoque.Controllers
     public class LoginController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;
-        public LoginController(IUsuarioRepositorio usuarioRepositorio) 
+        private readonly ISessao _sessao;
+
+        public LoginController(IUsuarioRepositorio usuarioRepositorio, ISessao sessao) 
         {
             _usuarioRepositorio = usuarioRepositorio;
+            _sessao = sessao;
         }
 
         public IActionResult Index()
         {
+            //Se o usuário estiver logado, redirecionar para a Home, se não vai para a View de login normalmente
+            if (_sessao.BuscarSessaoDoUsuario() != null) return RedirectToAction("Index", "Home");
+
             return View();
+        }
+
+        public IActionResult Sair()
+        {
+            _sessao.RemoverSessaoDoUsuario();
+            return RedirectToAction("Index", "Login");
         }
 
         [HttpPost]
@@ -31,6 +44,7 @@ namespace ControleEstoque.Controllers
                     {
                         if(usuario.SenhaValida(loginModel.Senha))
                         {
+                            _sessao.CriarSessaoDoUsuario(usuario);
                             return RedirectToAction("Index", "Home");
                         }
                         //Mensagem exibida caso senha seja inválida buscada pela banco de dados

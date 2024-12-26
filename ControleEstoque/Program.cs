@@ -1,8 +1,12 @@
 using ControleEstoque.Data;
+using ControleEstoque.Helper;
 using ControleEstoque.Repositorio;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//Quando chamar a Interface IHttpContextAccessor, implementa o HttpContextAccessor quando realizar o login
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -11,6 +15,14 @@ builder.Services.AddScoped<IOntRepositorio, OntRepositorio>();
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<IW5Repositorio, W5Repositorio>();
 builder.Services.AddScoped<IOnuIntelbrasRepositorio, OnuIntelbrasRepositorio>();
+builder.Services.AddScoped<ISessao, Sessao>();
+
+//Adicionando a Sessão de login
+builder.Services.AddSession(o =>
+{
+    o.Cookie.HttpOnly = true;
+    o.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -28,6 +40,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+// Usar a sessão de login
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
