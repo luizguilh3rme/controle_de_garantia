@@ -35,6 +35,7 @@ namespace ControleEstoque.Repositorio
         public UsuarioModel Adicionar(UsuarioModel usuario)
         {
             usuario.DataCadastro = DateTime.Now;
+            usuario.SetSenhaHash();
             // Gravar no banco de dados
             _context.Usuarios.Add(usuario);
             _context.SaveChanges();

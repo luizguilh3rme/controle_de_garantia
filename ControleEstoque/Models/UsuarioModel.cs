@@ -1,4 +1,5 @@
 ﻿using ControleEstoque.Enums;
+using ControleEstoque.Helper;
 using System.ComponentModel.DataAnnotations;
 
 namespace ControleEstoque.Models
@@ -22,7 +23,12 @@ namespace ControleEstoque.Models
 
         public bool SenhaValida(string senha) //usou bool para informar se a senha é true ou false
         {
-            return Senha == senha; //compara a senha do banco com a senha preenchida pelo usuário
+            return Senha == senha.GerarHash(); //compara a senha do banco com a senha preenchida pelo usuário
+        }
+
+        public void SetSenhaHash()
+        {
+            Senha = Senha.GerarHash();
         }
     }
 }
