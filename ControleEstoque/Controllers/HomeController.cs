@@ -1,9 +1,12 @@
 using System.Diagnostics;
+using ControleEstoque.Filters;
 using ControleEstoque.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleEstoque.Controllers
 {
+    //Função para ativar o filtro e diferenciar se é um usuario padrão ou admin e colocar suas restrições
+    [PaginaParaUsuarioLogado]
     public class HomeController : Controller
     {
 

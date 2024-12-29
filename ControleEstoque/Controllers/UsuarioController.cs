@@ -1,9 +1,12 @@
-﻿using ControleEstoque.Models;
+﻿using ControleEstoque.Filters;
+using ControleEstoque.Models;
 using ControleEstoque.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleEstoque.Controllers
 {
+    //Função para ativar o filtro e diferenciar se é um usuario padrão ou admin e colocar suas restrições
+    [PaginaRestritaSomenteAdmin]
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;

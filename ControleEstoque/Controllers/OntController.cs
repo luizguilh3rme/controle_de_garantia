@@ -1,10 +1,13 @@
-﻿using ControleEstoque.Models;
+﻿using ControleEstoque.Filters;
+using ControleEstoque.Models;
 using ControleEstoque.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace ControleEstoque.Controllers
 {
+    //Função para ativar o filtro e diferenciar se é um usuario padrão ou admin e colocar suas restrições
+    [PaginaParaUsuarioLogado]
     public class OntController : Controller
     {
         private readonly IOntRepositorio _ontRepositorio;
