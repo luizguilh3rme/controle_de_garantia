@@ -25,6 +25,11 @@ namespace ControleEstoque.Controllers
             return View();
         }
 
+        public IActionResult RedefinirSenha()
+        {
+            return View();
+        }
+
         public IActionResult Sair()
         {
             _sessao.RemoverSessaoDoUsuario();
@@ -61,6 +66,37 @@ namespace ControleEstoque.Controllers
             catch (Exception erro)
             {
                 TempData["MensagemErro"] = $"Ops, não conseguimos realizar seu Login, tente novamente, mais detalhes do erro: {erro.Message}";
+                return RedirectToAction("Index");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult EnviarLinkParaRdefinirSenha(RedefinirSenhaModel redefinirSenhaModel)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    UsuarioModel usuario = _usuarioRepositorio.BuscarPorEmailELogin(redefinirSenhaModel.Email, redefinirSenhaModel.Login);
+
+                    if (usuario != null)
+                    {
+                        string novaSenha = usuario.GerarNovaSenha();
+
+                        TempData["MensagemSucesso"] = $"Enviamos para seu email cadastrado uma nova senha.";
+                        return RedirectToAction("Index", "Login");
+                    }
+
+                    //Mensagem exibida caso login ou senha sejam inválidos
+                    TempData["MensagemErro"] = $"Não conseguimos redefinir sua senha. Por favor, verifique  os dados informados";
+                }
+
+                //volta para index de login
+                return View("Index");
+            }
+            catch (Exception erro)
+            {
+                TempData["MensagemErro"] = $"Ops, não conseguimos redefinir sua senha, tente novamente, mais detalhes do erro: {erro.Message}";
                 return RedirectToAction("Index");
             }
         }
