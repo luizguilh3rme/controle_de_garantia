@@ -16,6 +16,7 @@ builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<IW5Repositorio, W5Repositorio>();
 builder.Services.AddScoped<IOnuIntelbrasRepositorio, OnuIntelbrasRepositorio>();
 builder.Services.AddScoped<ISessao, Sessao>();
+builder.Services.AddScoped<IEmail, Email>();
 
 //Adicionando a Sessão de login
 builder.Services.AddSession(o =>
