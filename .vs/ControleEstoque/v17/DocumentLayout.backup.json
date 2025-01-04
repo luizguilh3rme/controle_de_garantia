@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\helper\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\helper\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\controllers\\alterarsenhacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\controllers\\alterarsenhacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\helper\\iemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\helper\\iemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\views\\alterarsenha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\views\\alterarsenha\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|c:\\users\\uilson\\documents\\github\\sistema-controle-de-garantia-estoque\\controleestoque\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7A3D8A8-2493-4AD6-9938-F524288947D7}|ControleEstoque\\ControleEstoque.csproj|solutionrelative:controleestoque\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Program.cs",
-              "RelativeDocumentMoniker": "ControleEstoque\\Program.cs",
-              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Program.cs",
-              "RelativeToolTip": "ControleEstoque\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T22:48:51.657Z",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Views\\AlterarSenha\\Index.cshtml",
+              "RelativeDocumentMoniker": "ControleEstoque\\Views\\AlterarSenha\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Views\\AlterarSenha\\Index.cshtml",
+              "RelativeToolTip": "ControleEstoque\\Views\\AlterarSenha\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T00:57:24.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\appsettings.json",
-              "RelativeDocumentMoniker": "ControleEstoque\\appsettings.json",
-              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\appsettings.json",
-              "RelativeToolTip": "ControleEstoque\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-01T22:33:12.453Z",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ControleEstoque\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ControleEstoque\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T00:54:30.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Email.cs",
-              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Helper\\Email.cs",
-              "RelativeDocumentMoniker": "ControleEstoque\\Helper\\Email.cs",
-              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Helper\\Email.cs",
-              "RelativeToolTip": "ControleEstoque\\Helper\\Email.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCQAAABCAAAAAAAAAA==",
+              "Title": "AlterarSenhaController.cs",
+              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Controllers\\AlterarSenhaController.cs",
+              "RelativeDocumentMoniker": "ControleEstoque\\Controllers\\AlterarSenhaController.cs",
+              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Controllers\\AlterarSenhaController.cs",
+              "RelativeToolTip": "ControleEstoque\\Controllers\\AlterarSenhaController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T22:30:33.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmail.cs",
-              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Helper\\IEmail.cs",
-              "RelativeDocumentMoniker": "ControleEstoque\\Helper\\IEmail.cs",
-              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Helper\\IEmail.cs",
-              "RelativeToolTip": "ControleEstoque\\Helper\\IEmail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T22:29:21.431Z",
+              "WhenOpened": "2025-01-04T00:39:09.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "ControleEstoque\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "ControleEstoque\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAA4wAwAAAAnAAAAAAAAAA==",
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "ControleEstoque\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "ControleEstoque\\Models\\UsuarioModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA8wCMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:28:07.459Z",
+              "WhenOpened": "2025-01-04T00:36:10.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "ControleEstoque\\Repositorio\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\Repositorio\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "ControleEstoque\\Repositorio\\UsuarioRepositorio.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T00:28:03.988Z",
               "EditorCaption": ""
             }
           ]

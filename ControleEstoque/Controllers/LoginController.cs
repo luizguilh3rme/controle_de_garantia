@@ -73,7 +73,7 @@ namespace ControleEstoque.Controllers
         }
 
         [HttpPost]
-        public IActionResult EnviarLinkParaRdefinirSenha(RedefinirSenhaModel redefinirSenhaModel)
+        public IActionResult EnviarLinkParaRedefinirSenha(RedefinirSenhaModel redefinirSenhaModel)
         {
             try
             {

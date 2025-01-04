@@ -10,6 +10,7 @@ namespace ControleEstoque.Repositorio
         List<UsuarioModel> Buscartodos();
         UsuarioModel Adicionar(UsuarioModel ont);
         UsuarioModel Atualizar(UsuarioModel ont);
+        UsuarioModel AlterarSenha(AlterarSenhaModel alterarSenhaModel);
         bool Apagar(int id);
     }
 }

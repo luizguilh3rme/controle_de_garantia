@@ -14,8 +14,8 @@ namespace ControleEstoque.Controllers
         {
             HomeModel home = new HomeModel();
 
-            home.Nome = "Guilherme";
-            home.Email = "guilherme@gmail.com";
+            //home.Nome = "Guilherme";
+            //home.Email = "guilherme@gmail.com";
 
             return View(home);
         }

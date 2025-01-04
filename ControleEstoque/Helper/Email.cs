@@ -41,7 +41,7 @@ namespace ControleEstoque.Helper
                     return true;
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 //Gravar log de erro ao enviar email
                 return false;

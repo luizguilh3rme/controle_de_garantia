@@ -31,6 +31,11 @@ namespace ControleEstoque.Models
             Senha = Senha.GerarHash();
         }
 
+        public void SetNovaSenha(string novaSenha)
+        {
+            Senha = novaSenha.GerarHash();
+        }
+
         public string GerarNovaSenha()
         { //Pegar da posição 0 ate a 8 usando SubString
             string novaSenha = Guid.NewGuid().ToString().Substring(0, 8);
