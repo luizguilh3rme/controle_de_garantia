@@ -1,0 +1,74 @@
+﻿/*Tela Login*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #F0F8FF;
+}
+
+.logo-imagem {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+    border-radius: .9rem;
+    border: .1rem solid #FF4500;
+}
+
+.nome-login {
+    color: #FF4500;
+    font-size: 24px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nome-senha {
+    /*    color: #191970;*/
+    color: #FF4500;
+    font-size: 24px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.letra-botao {
+    background-color: #FF4500;
+    border: .1rem solid #FF4500;
+    color: white;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.corpo-center {
+    width: 50rem;
+    height: 20rem;
+    background-color: #4343d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .7rem;
+    border: .2rem solid #8282e3;
+}
+
+.corpo-tras {
+    display: flex;
+    justify-content: center;
+}
+
+.corpo-login, .corpo-senha {
+    width: 45rem;
+}
+
+.esqueceu-senha {
+    color: #000000;
+    text-decoration: none;
+}
+
+.esqueceu-senha-link {
+    color: #FF4500;
+}

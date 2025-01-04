@@ -1,5 +1,9 @@
 ﻿@model LoginModel
 
+<head>
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+</head>
+
 @{
     Layout = "_LayoutDeslogado";
     ViewData["Title"] = "Login";
@@ -21,22 +25,35 @@
     </div>
 }
 
-<form asp-controller="login" asp-action="Entrar" method="post" > @*Entrar vem da controller Login*@
-    <div class="mb-3">
-        <label for="login" class="form-label">Login</label>
-        <input type="text" asp-for="Login" class="form-control" id="login" />
-        @Html.ValidationMessageFor(x => x.Login) @*Verifica a validação do login e mostra a mensagem caso não foi preenchido*@
-    </div>
-    <div class="mb-3">
-        <label for="senha" class="form-label">Senha</label>
-        <input type="password" asp-for="Senha" class="form-control" id="senha">
-        @Html.ValidationMessageFor(x => x.Senha) @*Verifica a validação da senha e mostra a mensagem caso não foi preenchido*@
+<div class="text-center logo-imagem">
+    <img class="logo" src="https://play-lh.googleusercontent.com/g-fb8i0NtmdxP_-30Le3qjK-PbI-xOR6n80i-41wdun6BuXE2RRALnl_XOUFNMyxKg" alt="Alternate Text" />
+</div>
+
+<section class="corpo-tras">
+    <div class="corpo-center">
+        <form asp-controller="login" asp-action="Entrar" method="post">
+            @*Entrar vem da controller Login*@
+            <div class="mb-3  corpo-login">
+                <label for="login" class="form-label nome-login">Login</label>
+                <input type="text" asp-for="Login" class="form-control" id="login" />
+                @Html.ValidationMessageFor(x => x.Login) @*Verifica a validação do login e mostra a mensagem caso não foi preenchido*@
+            </div>
+            <div class="mb-3 corpo-senha">
+                <label for="senha" class="form-label nome-senha">Senha</label>
+                <input type="password" asp-for="Senha" class="form-control" id="senha">
+                @Html.ValidationMessageFor(x => x.Senha) @*Verifica a validação da senha e mostra a mensagem caso não foi preenchido*@
+            </div>
+
+            <p class="mb-4 text-sm mx-auto esqueceu-senha">
+                Esqueceu sua senha?
+                <a asp-action="RedefinirSenha" asp-controller="Login" class="font-weight-bold esqueceu-senha-link">Redefinir minha senha</a>
+            </p>
+
+            <button type="submit" class="btn  btn-block letra-botao">Entrar</button>
+        </form>
     </div>
 
-    <p class="mb-4 text-sm mx-auto">
-        Esqueceu sua senha?
-        <a asp-action="RedefinirSenha" asp-controller="Login" class="text-primary text-gradient font-weight-bold">Redefinir minha senha</a>
-    </p>
-    
-    <button type="submit" class="btn btn-primary btn-block">Entrar</button>
-</form>
+</section>
+
+
+

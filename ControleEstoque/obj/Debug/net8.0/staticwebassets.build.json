@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "47+ArJMdtWjrFi/UGNdChvykAb5viMmViD84x7SgvfI=",
+  "Hash": "43AN7rX1Owzw4LslrZMkAo0Sxl3ZXJrGwMEdbMrk9hA=",
   "Source": "ControleEstoque",
   "BasePath": "_content/ControleEstoque",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ControleEstoque.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Login.css",
+      "SourceId": "ControleEstoque",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\",
+      "BasePath": "_content/ControleEstoque",
+      "RelativePath": "css/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "chls1ff10x",
+      "Integrity": "wMjBk+sMyYkqMyfjrmdZ5haW+mkW/KEk/xLdv9hVOPI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
       "Identity": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Ont.css",
       "SourceId": "ControleEstoque",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "t19ydig5ci",
-      "Integrity": "UVdB6fqfbHEfGMVYsdFjZoGJO3/PXBdDf7gjtyzLo3o=",
+      "Fingerprint": "p75y59jd5y",
+      "Integrity": "G1gj3Ik9w1GJ/d+my6R5xKK0PCjwA3OQoFTn+0FqkE8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Ont.css"
@@ -1590,6 +1611,88 @@
       ]
     },
     {
+      "Route": "css/Login.chls1ff10x.css",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMjBk+sMyYkqMyfjrmdZ5haW+mkW/KEk/xLdv9hVOPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 21:59:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "chls1ff10x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMjBk+sMyYkqMyfjrmdZ5haW+mkW/KEk/xLdv9hVOPI="
+        }
+      ]
+    },
+    {
+      "Route": "css/Login.css",
+      "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wMjBk+sMyYkqMyfjrmdZ5haW+mkW/KEk/xLdv9hVOPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 21:59:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wMjBk+sMyYkqMyfjrmdZ5haW+mkW/KEk/xLdv9hVOPI="
+        }
+      ]
+    },
+    {
       "Route": "css/Ont.css",
       "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Ont.css",
       "Selectors": [],
@@ -1600,7 +1703,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "956"
+          "Value": "964"
         },
         {
           "Name": "Content-Type",
@@ -1608,11 +1711,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UVdB6fqfbHEfGMVYsdFjZoGJO3/PXBdDf7gjtyzLo3o=\""
+          "Value": "\"G1gj3Ik9w1GJ/d+my6R5xKK0PCjwA3OQoFTn+0FqkE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 23:06:21 GMT"
+          "Value": "Sat, 04 Jan 2025 21:59:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1622,12 +1725,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UVdB6fqfbHEfGMVYsdFjZoGJO3/PXBdDf7gjtyzLo3o="
+          "Value": "sha256-G1gj3Ik9w1GJ/d+my6R5xKK0PCjwA3OQoFTn+0FqkE8="
         }
       ]
     },
     {
-      "Route": "css/Ont.t19ydig5ci.css",
+      "Route": "css/Ont.p75y59jd5y.css",
       "AssetFile": "C:\\Users\\Uilson\\Documents\\GitHub\\Sistema-controle-de-garantia-estoque\\ControleEstoque\\wwwroot\\css\\Ont.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1637,7 +1740,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "956"
+          "Value": "964"
         },
         {
           "Name": "Content-Type",
@@ -1645,11 +1748,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UVdB6fqfbHEfGMVYsdFjZoGJO3/PXBdDf7gjtyzLo3o=\""
+          "Value": "\"G1gj3Ik9w1GJ/d+my6R5xKK0PCjwA3OQoFTn+0FqkE8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 23:06:21 GMT"
+          "Value": "Sat, 04 Jan 2025 21:59:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1659,7 +1762,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "t19ydig5ci"
+          "Value": "p75y59jd5y"
         },
         {
           "Name": "label",
@@ -1667,7 +1770,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UVdB6fqfbHEfGMVYsdFjZoGJO3/PXBdDf7gjtyzLo3o="
+          "Value": "sha256-G1gj3Ik9w1GJ/d+my6R5xKK0PCjwA3OQoFTn+0FqkE8="
         }
       ]
     },
